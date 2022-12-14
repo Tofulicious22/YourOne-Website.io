@@ -1,0 +1,95 @@
+/* .titlecard
+{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+
+.titlecard {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+.videobg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(0%, -50%);
+  z-index: -1;
+}
+.overlay {
+  position: absolute;
+  z-index: 0;
+  mix-blend-mode: overlay;
+  padding: 200vh;
+  height: 500px;
+  width: auto;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+
+/* .titlecard::before
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+.titlecard:hover::before
+{
+  opacity: 1;
+} */
+.title {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 8rem;
+}
+.contus {
+  font-size: 2em;
+  color: #7537b3;
+}
+.important {
+  color: #7537b3;
+}
+.title h1 {
+  margin: auto;
+}
+.contactus {
+  background: url(img/landing_page_newsletter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactus-input {
+  margin-bottom: 1em;
+}
+
+.send {
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .contactusinfo {
+    width: 95%;
+  }
+  .title {
+    font-size: 4rem;
+    padding-top: 6.8rem;
+  }
+}

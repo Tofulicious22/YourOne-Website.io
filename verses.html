@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YourOne Bible App</title>
+
+    <link rel="stylesheet" href="includes/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="nav navbar navbar-expand-lg navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><span class="logo">YourOne</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item link">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item link">
+              <a href="get_the_app.html" class="nav-link">Get The App</a>
+            </li>
+            <li class="nav-item link">
+              <a href="mission.html" class="nav-link">Our Mission</a>
+            </li>
+            <li class="nav-item link dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="music.html">Music</a></li>
+                <li>
+                  <a class="dropdown-item" href="preaches.html">Preaches</a>
+                </li>
+                <li>
+                  <a class="dropdown-item active" href="verses.html"
+                    >Bible Verse</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item link">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section -->
+
+    <section class="app-hero-section text-light text-center text-sm-start">
+      <video
+        class="app-hero-video"
+        src="includes/videos/verses.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+      <div class="overlay"></div>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="verse-hero-text">Verses</h1>
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align items center justify-content-between">
+          <div class="col-md p-4">
+            <h2 class="fw-bold intro-text pb-4 pt-3">Read Bible Verses</h2>
+            <p class="lead pb-4 intro-subtext">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam,
+              eos quidem porro harum excepturi assumenda?
+            </p>
+            <p class="lead pb-4 intro-subtext">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat
+              itaque nihil? Numquam ullam quaerat iste animi cumque, harum
+              temporibus laboriosam rem, blanditiis, saepe culpa.
+            </p>
+            <a href="index.html" class="btn app">
+              <img
+                src="includes/images/apple_store_badge.bmp"
+                class="store-badge"
+              />
+            </a>
+            <a href="index.html" class="btn app">
+              <img
+                src="includes/images/google_play_badge.png"
+                class="store-badge"
+              />
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="includes/images/yourone_sample_app.jpg"
+              class="img-fluid yourone-sample"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section id="versespagebg" class="preaches p-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-1.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >John 1:12</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  Yet to all who did receive him, to those who believed in his
+                  name, he gave the right to become children of God.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-2.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >Proverbs 31:30</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  Therefore everyone who hears these words of mine and puts them
+                  into practice is like a wise man who built his house on the
+                  rock.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-3.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >Colossians 3:23-24</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  I press on toward the goal to win the prize for which God has
+                  called me heavenward in Christ Jesus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-4.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >Leviticus 23:3</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  There are six days when you may work, but the seventh day is a
+                  day of sabbath rest, a day of sacred assembly. You are not to
+                  do any work; wherever you live, it is a sabbath to the Lord.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-5.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >Luke 1:30-31</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  But the angel said to her, “Do not be afraid, Mary; you have
+                  found favor with God. You will conceive and give birth to a
+                  son, and you are to call him Jesus.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm verse">
+              <div class="card-body">
+                <img
+                  src="includes/images/verse-6.jpg"
+                  alt=""
+                  style="width: 100%; margin-bottom: 1em"
+                />
+                <a
+                  href=""
+                  class="p"
+                  style="text-decoration: none; color: #7537b3"
+                  >1 John 3:1</a
+                >
+                <p
+                  class="card-text text-dark"
+                  style="text-decoration: none; margin-top: 0.5em"
+                >
+                  See what great love the Father has lavished on us, that we
+                  should be called children of God! And that is what we are! The
+                  reason the world does not know us is that it did not know him.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section -->
+
+    <!-- Footer -->
+    <footer class="nav p-5 pt- text-center text-dark position-relative">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="footer-title text-white pb-2 mb-2">
+              <a href="index.html" style="text-decoration: none; color: #fff"
+                >YourOne</a
+              >
+            </h5>
+            <p class="text-center text-white link">
+              @ YourOne 2022 Copyright | Terms of Use
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+              <i
+                class="fas fa-arrow-circle-up h1"
+                style="background-color: #7537b3; color: #fff"
+              ></i
+            ></a>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="footer-title text-white pb-2 mb-2">Useful Links</h5>
+            <ul class="nav justify-content-center pb-2 mb-2">
+              <li class="nav-item">
+                <a href="get_the_app.html" class="link nav-link px-2 text-white"
+                  >Get The App</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="our_mission.html" class="link nav-link px-2 text-white"
+                  >Our Mission</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class="link nav-link px-2 text-white"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact_us.html" class="link nav-link px-2 text-white"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="footer-title text-white pb-2 mb-2">Follow Us</h5>
+            <ul class="nav justify-content-center pb-2 mb-2">
+              <li class="nav-item">
+                <a
+                  class="link nav-link px-2 text-white"
+                  href="https://web.facebook.com/groups/4667072866755372"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="link nav-link px-2 text-white"
+                  href="https://twitter.com/Teravisioncorp"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="link nav-link px-2 text-white"
+                  href="https://www.instagram.com/teravision2020/"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="link nav-link px-2 text-white"
+                  href="https://t.me/YourOneBible"
+                  ><i class="fa fa-telegram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/9fb78288eb.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    ScrollReveal({
+      reset: false,
+      distance: "60px",
+      duration: 2500,
+      delay: 400,
+    });
+    ScrollReveal().reveal(".verse-hero-text", { delay: 500, origin: "bottom" });
+    ScrollReveal().reveal(".intro-text", { delay: 500, origin: "right" });
+    ScrollReveal().reveal(".intro-subtext", { delay: 500, origin: "right" });
+    ScrollReveal().reveal(".app", { delay: 500, origin: "bottom" });
+    ScrollReveal().reveal(".yourone-sample", { delay: 500, origin: "left" });
+    ScrollReveal().reveal(".verse", { delay: 500, origin: "bottom" });
+  </script>
+</html>

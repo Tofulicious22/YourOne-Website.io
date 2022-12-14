@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.nav {
+  background-color: #7537b3;
+}
+.logo {
+  font-size: 1.3em;
+}
+.link {
+  font-size: 1.1em;
+}
+.hero-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.app-hero-section {
+  position: relative;
+  height: 440px;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(0%, -20%);
+  z-index: -1;
+}
+
+.app-hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(0%, -20%);
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 0;
+  mix-blend-mode: overlay;
+  padding: 200vh;
+  height: 500px;
+  width: auto;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.overlayfeat {
+  position: absolute;
+  z-index: 0;
+  mix-blend-mode: darken;
+  padding: 50px;
+  padding-left: 20vh;
+  padding-right: 24.5vh;
+  height: 375px;
+  min-width: auto;
+  top: 0;
+  left: 0;
+  transform: translate(2.85%);
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.app-feature-section {
+  z-index: 1000;
+}
+.hero-text {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 3rem;
+}
+.sub-hero-text {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.subscribe {
+  width: 100%;
+  height: 100%;
+}
+
+.app-hero-text {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 5rem;
+}
+
+.verse-hero-text {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 5rem;
+}
+
+.intro-text {
+  font-size: 2.4em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.store-badge {
+  width: 10em;
+}
+
+.yourone-sample {
+  width: 30em;
+  border-radius: 6px;
+}
+.preachpagebg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/preaches.jpg);
+}
+.featured {
+  margin-top: 47.5px;
+  border-radius: 6px;
+  width: 49rem;
+  height: 27.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.fa-play {
+  width: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: 500ms;
+  color: #7537b3;
+}
+.fa-play:hover {
+  transition: 500ms;
+  color: white;
+}
+.small-img-row {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: white;
+  margin: 20px;
+  border-radius: 6px;
+  width: 85%;
+}
+.small-img-row p {
+  margin-left: 20px;
+  line-height: 22px;
+  font-size: 15px;
+}
+.preaches-small-featured {
+  max-height: 20em;
+}
+.small-img {
+  position: relative;
+}
+.video-player {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  cursor: pointer;
+  display: none;
+}
+.video:focus {
+  outline: none;
+}
+.fa-window-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}
+.app-feature-section {
+  background-color: #7537b3;
+}
+.img {
+  max-width: 100%;
+  height: 375px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: -1;
+}
+.message {
+  position: absolute;
+  transform: translate(15%, -110%);
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  margin-right: 0;
+  padding: 0rem;
+  color: White;
+  font-size: 35px;
+}
+#msg1 {
+  padding-left: 0.8rem;
+}
+#msg2 {
+  padding-left: 0.35rem;
+}
+.undermsg {
+  position: absolute;
+  transform: translate(10.5%, -50%);
+  max-width: 300px;
+  color: White;
+  font-size: 15px;
+  font-weight: 300;
+  bottom: 0;
+  left: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.advertise-text {
+  padding-top: 1.5em;
+  font-size: 4em;
+}
+.advertise-badge {
+  width: 12em;
+}
+.newsletter-section {
+  background: url(images/landing_page_newsletter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.newsletter-title {
+  font-size: 2em;
+  color: #7537b3;
+}
+.newsletter-input {
+  margin-bottom: 1em;
+}
+.advertise-section {
+  background: url(images/landing_page_newsletter.png);
+  height: 470px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services-hero-text {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 5rem;
+}
+.music-hero-text {
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 4.5rem;
+}
+.preaches {
+  background-color: #7537b3;
+  color: rgb(255, 255, 255);
+}
+#musicpagebg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/music.jpg);
+}
+#versespagebg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/verse.jpg);
+}
+#preachpagebg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/preach.jpg);
+}
+#musicontents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.musicplayer {
+  margin: 3rem;
+  padding: 0.2rem;
+}
+.musicthumbnail {
+  width: 200px;
+  max-height: 150px;
+}
+#playbutton {
+  padding-top: 3.5rem;
+}
+.footer-title {
+  font-size: 2em;
+}
+
+.link {
+  font-size: 1.2em;
+}
+
+/* modal */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .hero-text {
+    font-size: 2.7rem;
+    padding-top: 0.1rem;
+  }
+  .sub-hero-text {
+    font-size: 2rem;
+  }
+  .app-hero-text {
+    font-size: 3.6rem;
+    padding-top: 2.7rem;
+  }
+  .services-hero-text {
+    font-size: 3.6rem;
+    padding-top: 5rem;
+  }
+  .verse-hero-text {
+    font-size: 3.6rem;
+    padding-top: 5rem;
+  }
+  .message {
+    margin-top: 5rem;
+    text-align: center;
+    transform: translate(15%, -130%) !important;
+  }
+  #msg1 {
+    padding-left: 1.2rem;
+  }
+  #msg2 {
+    padding-left: 0.8rem;
+  }
+  #msg3 {
+    padding-left: 0.4rem;
+  }
+  .undermsg {
+    transform: translate(20%, 100%);
+    margin-bottom: 3.5rem;
+    max-width: 200px;
+  }
+  .overlayfeat {
+    padding-right: 18.5vh;
+    transform: translate(4.4%);
+  }
+  .advertise-text {
+    font-size: 2.9em;
+    padding-top: 0.3em;
+  }
+  .message {
+    transform: translate(10%, -170%);
+  }
+  .subscribe {
+    height: 3.2em;
+  }
+  .musicthumbnail {
+    width: 150px;
+    margin-left: 2rem;
+  }
+  #musicontents {
+    display: inline;
+  }
+  #playbutton {
+    padding-top: 0rem;
+  }
+  .musicplayer {
+    margin: 0rem;
+    padding-right: 3.5em;
+  }
+  .featured {
+    width: 18.5rem;
+    height: 10.5rem;
+  }
+  .small-img-row {
+    display: block;
+  }
+  .fa-play {
+    width: 10px;
+  }
+  .video-player {
+    transform: translate(-50%, 670%);
+  }
+}
